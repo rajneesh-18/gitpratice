@@ -1,4 +1,4 @@
-#gestart python
+#let's start python
 print("hello python")
 #this hash for comment a line.
 """

@@ -492,7 +492,7 @@ Devset = {"kunal","francesco","aniket"}
 
 print("francesco" in Devset)
 
-
+# today git pratice
 
 
  

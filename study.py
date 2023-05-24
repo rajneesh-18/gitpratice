@@ -493,6 +493,27 @@ Devset = {"kunal","francesco","aniket"}
 print("francesco" in Devset)
 
 # today git pratice
+# Day 29 ADD SETS
+Devset = {"kunal", "francesco", "aniket"}
+
+Devset.add("madhu")
+
+print(Devset)
+
+Devset = {"kunal", "francesco", "aniket"}
+Dev = {"madza", "madhu", "ishika"}
+
+Devset.update(Dev)
+
+print(Devset)
+
+Devset = {"kunal", "francesco", "aniket"}
+
+Devlist = ["madza", "madhu"]
+
+Devset.update(Devlist)
+
+print(Devset)
 
 
  

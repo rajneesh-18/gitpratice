@@ -515,6 +515,32 @@ Devset.update(Devlist)
 
 print(Devset)
 
+# Day 30 Python Remove Add Item
+devset = {"kunal", "francesco", "madza"}
+
+devset.remove("francesco")
+
+print(devset)
+
+devset = {"kunal", "francesco", "madza"}
+
+devset.clear()
+
+print(devset)
+
+devset = {"kunal", "francesco", "madza"}
+
+devset.discard("francesco")
+
+print(devset)
+
+devset = {"kunal", "francesco", "madza"}
+
+x = devset.pop()
+
+print(x)
+
+print(devset)
 
  
 

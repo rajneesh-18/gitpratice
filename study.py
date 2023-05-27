@@ -29,6 +29,12 @@ vari = "Rajneesh Maurya"
 VaRiAble = "Rajneesh Maurya" #pascal case
 variable2 = "Rajneesh Maurya"
 
+# Day 32 Loop Set
+Devset = {"kunal", "francesco", "aniket"}
+
+for x in Devset:
+  print(x)
+
 
 print(variable)
 print(var_iable)

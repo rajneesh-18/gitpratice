@@ -548,7 +548,48 @@ print(x)
 
 print(devset)
 
- 
+# Day 31 Make a project on know you zodiac sign
+
+# DAY 32 Python Loop Sets
+Devset = {"francesco","aniket","kunal"}
+
+for x in Devset:
+  print(x)
+
+
+# Day 33 Python Join Sets
+Devset1 = {"Rel","Adv","Ops"}
+Devset2 = {1,2,3}
+
+Devset3 = Devset1.union(Devset2)
+print(Devset3)
+
+Devset1 = {"Rel","Adv","Ops"}
+Devset2 = {1,2,3}
+
+Devset1.update(Devset2)
+print(Devset1)
+
+d = {"kunal", "francesco", "aniket"}
+e = {"ishika", "madza", "aniket"}
+
+v = d.intersection(e)
+
+print(v)
+
+d = {"kunal", "francesco", "aniket"}
+e = {"ishika", "madza", "aniket"}
+
+v.symmetric_difference_update(e)
+
+print(d)
+
+d = {"kunal", "francesco", "aniket"}
+e = {"ishika", "madza", "aniket"}
+
+v = d.symmetric_difference(e)
+
+print(d) 
 
 
 

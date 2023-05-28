@@ -588,7 +588,6 @@ d = {"kunal", "francesco", "aniket"}
 e = {"ishika", "madza", "aniket"}
 
 v = d.symmetric_difference(e)
-
 print(d) 
 
 

@@ -590,6 +590,41 @@ e = {"ishika", "madza", "aniket"}
 v = d.symmetric_difference(e)
 print(d) 
 
+# DAY 34 Python Dictionaries
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "LinkedIn": "Rajneesh Maurya"
+}
+print(Devdict)
+
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "LinkedIn": "Rajneesh Maurya"
+}
+print(Devdict["Twitter"])
+
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "start":2022,
+  "start":2023 
+}
+print(Devdict)
+
+Devdict = {
+  "Name": "Kunal",
+  "DevRel": True,
+  "Type": "Remote",
+  "Platform": ["Twitter", "LinkedIn", "Github"]
+}
+
+print(Devdict)
+
+Devdict = dict(name = "Francesco", profession="DevAdv", Type = "Remote")
+
+print(Devdict) 
 
 
  

@@ -626,6 +626,44 @@ Devdict = dict(name = "Francesco", profession="DevAdv", Type = "Remote")
 
 print(Devdict) 
 
+# Day 35 Python Access Dictionary Items
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+x = Devdict.get("Twitter")
+print(x)
+
+Devdict = {
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+
+x = Devdict.keys()
+
+print(x)
+
+Devdict = {
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+
+x = Devdict.values()
+
+print(x)
+
+Devdict = {
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+
+x = Devdict.items()
+
+print(x)
 
  
 

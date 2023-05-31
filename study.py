@@ -688,6 +688,25 @@ Devdict.update({"follower's":51})
 
 print(Devdict)
  
+# Day 37 Python Add Dictionary
+#Without using update() method
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+Devdict["Github"] = "rajneesh-18"
+print(Devdict)
+
+#With using update() method
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 57
+}
+Devdict.update({"Github": "rajneesh-18"})
+
+print(Devdict)
 
 
 

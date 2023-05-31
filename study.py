@@ -665,6 +665,28 @@ x = Devdict.items()
 
 print(x)
 
+# DAY 36 Change Dictionary
+#WITHOUT USING UPDATE METHOD
+Devdict =	{
+  "name": "Rajneesh",
+  "twitter": "@rajneeshstwt",
+  "follower's": 50
+}
+
+Devdict["follower's"] = 51
+
+print(Devdict)
+
+# HERE USING UPDATE METHOD
+Devdict =	{
+  "name": "Rajneesh",
+  "twitter": "@rajneeshstwt",
+  "follower's": 50
+}
+
+Devdict.update({"follower's":51})
+
+print(Devdict)
  
 
 

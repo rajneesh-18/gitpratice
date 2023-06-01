@@ -708,6 +708,41 @@ Devdict.update({"Github": "rajneesh-18"})
 
 print(Devdict)
 
+# Day 38 Python Dictionary Remove Items
+# Using 4 methods to remove any item
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 58
+}  
+Devdict.pop("Twitter")
+print(Devdict)
+
+
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 58
+}
+Devdict.popitem()
+print(Devdict)
+
+
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 58
+}
+del Devdict["Twitter"]
+print(Devdict)
+
+Devdict =	{
+  "Name": "Rajneesh",
+  "Twitter": "@rajneeshstwt",
+  "Follower's": 58
+}
+Devdict.clear()
+print(Devdict)
 
 
 

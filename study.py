@@ -744,7 +744,30 @@ Devdict =	{
 Devdict.clear()
 print(Devdict)
 
+# Day 39 Loop Dictionaries
+Devdict =	{
+  "name": "Rajneesh Maurya",
+  "twitter": "@rajneeshstwt",
+  "follower's": 60
+}
+for x in Devdict.values():
+  print(x)
 
+Devdict =	{
+  "name": "Rajneesh Maurya",
+  "twitter": "@rajneeshstwt",
+  "follower's": 60
+}  
+for x in Devdict.keys():
+  print(x)
+
+Devdict =	{
+  "name": "Rajneesh Maurya",
+  "twitter": "@rajneeshstwt",
+  "follower's": 60
+}
+for x, y in Devdict.items():
+  print(x, y)
 
 
 

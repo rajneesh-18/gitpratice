@@ -341,17 +341,17 @@ list1 = ["twt", 18, True, 19, "git"]
 print(list1)
 
 # Day 19 Python Tuples
-thistuple = tuple(("rajneesh", "kunal", "ishan"))
-print(len(thistuple))
-thistuple = ("rajneesh", "kunal", "ishan")
-print(thistuple)
-thistuple = ("study", "notes", "implement")
-print(thistuple)
-thistuple = tuple(("Twitter","LinkedIn","Github"))
-print(thistuple)
-mytuple = ("Twitter","LinkedIn","Github")
+startuple = tuple(("rajneesh", "kunal", "ishan"))
+print(len(startuple))
+startuple = ("rajneesh", "kunal", "ishan")
+print(startuple)
+dailytuple = ("study", "notes", "implement")
+print(dailytuple)
+favtuple = tuple(("Twitter","LinkedIn","Github"))
+print(favtuple)
+favtuple = ("Twitter","LinkedIn","Github")
 
-print(type(mytuple))
+print(type(favtuple))
 tuple1 = ("twt", 18, True, 19, "git")
 
 print(tuple1)

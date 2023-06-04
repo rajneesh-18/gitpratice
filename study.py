@@ -769,7 +769,7 @@ Devdict =	{
 for x, y in Devdict.items():
   print(x, y)
 
-  # Day 40 Copy Dictionary
+# Day 40 Copy Dictionary
 # Using copy() 
 Devdict = {
   "Name": "Rajneesh Mauyra",

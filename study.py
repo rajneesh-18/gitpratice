@@ -311,22 +311,22 @@ print(x // y) #Floor division
 
 
 # Day 18 Python Lists
-mylist = ["Rajneesh", "Ishan", "Kunal"] 
+starlist = ["Rajneesh", "Ishan", "Kunal"] 
 
-print(type(mylist))
+print(type(starlist))
 
-thislist = ["kunal", "ishan", "kunal", "ishan", "rajneesh"]
+starlist = ["kunal", "ishan", "kunal", "ishan", "rajneesh"]
 
-print(thislist)
+print(starlist)
 
-thislist = ["youtube", "github", "twitter"]
-print(thislist)
+sociallist = ["youtube", "github", "twitter"]
+print(sociallist)
 
-thislist = list(("Twitter", "LinkedIn", "Github"))
-print(thislist)
+favlist = list(("Twitter", "LinkedIn", "Github"))
+print(favlist)
 
-thislist = ["eat", "code", "repeat"]
-print(len(thislist))
+routinelist = ["eat", "code", "repeat"]
+print(len(routinelist))
 
 list1 = ["study", "notes", "implement"]
 list2 = [5, 6, 8, 7, 9]

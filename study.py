@@ -769,6 +769,24 @@ Devdict =	{
 for x, y in Devdict.items():
   print(x, y)
 
+  # Day 40 Copy Dictionary
+# Using copy() 
+Devdict = {
+  "Name": "Rajneesh Mauyra",
+  "Username": "@rajneeshstwt",
+  "Follower's": 62
+}
+Opsdict = Devdict.copy()
+print(Opsdict)
+
+# Using dict()
+Devdict = {
+  "Name": "Rajneesh Mauyra",
+  "Username": "@rajneeshstwt",
+  "Follower's": 62
+}
+Opsdict = dict(Devdict)
+print(Opsdict)
 
 
 

@@ -5,15 +5,15 @@ print("hello python")
 this multiple quotes add
 before a comment many lines
 """ 
-a = "Twitter"
-print(a)
+s = "Twitter"
+print(s)
 #double quotes are the same as single quotes:
-a = 'Twitter'
-print(a)
-h = 18
-g = "Rajneesh Maurya"
-print(type(h))
-print(type(g))
+s = 'Twitter'
+print(s)
+a = 18
+n = "Rajneesh Maurya"
+print(type(a))
+print(type(n))
 t = str("Twitter")
 b = int(18)
 z = float(18.5)

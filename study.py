@@ -788,6 +788,46 @@ Devdict = {
 Opsdict = dict(Devdict)
 print(Opsdict)
 
+# DAY 41 Made a project "Predicting Game"
+
+# DAY 42 Nested Dictionary
+mydata = {
+  "user1" : {
+    "name" : "Kunal",
+    "year" : 19
+  },
+  "user2" : {
+    "name" : "Rajneesh",
+    "year" : 18
+  },
+  "user3" : {
+    "name" : "Vipin",
+    "year" : 22
+  }
+}
+
+print(mydata)
+
+user1 = {
+    "name" : "Kunal",
+    "year" : 19
+},
+user2 = {
+    "name" : "Rajneesh",
+    "year" : 18
+},
+user3 = {
+    "name" : "Vipin",
+    "year" : 22
+}
+
+mydata = {
+  "user1" : user1,
+  "user2" : user2,
+  "user3" : user3
+}
+
+print(mydata)
 
 
 

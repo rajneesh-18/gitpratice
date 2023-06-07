@@ -829,6 +829,16 @@ mydata = {
 
 print(mydata)
 
+# Day 43 Python If Else 
+k = 19
+r = 18
+if r > k:
+  print("r is greater than k")
+elif k == r:
+  print("k and r are equal")
+else:
+  print("k is greater than r")
+
 
 
 

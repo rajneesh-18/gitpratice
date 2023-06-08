@@ -861,6 +861,19 @@ while x < 6:
 else:
   print("x is less than 6")
   
+# Day 45 Python For loop
+dev = ["madhu", "francesco", "kunal"]
+for x in dev:
+  print(x) 
+  if x == "kunal":
+    break
+    
+dev = ["kunal", "francesco", "madza"]
+for x in dev:
+  if x == "francesco":
+    continue
+  print(x) 
+    
 
 
 

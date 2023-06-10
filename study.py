@@ -873,7 +873,17 @@ for x in dev:
   if x == "francesco":
     continue
   print(x) 
-    
+# DAY 46 Python condition and function by using for loop
+
+# with using range()
+for x in range(6):
+  print(x) 
+  
+#with using else   
+for x in range(6):
+  print(x)
+else:
+  print("Completed")
 
 
 

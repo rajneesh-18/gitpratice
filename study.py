@@ -884,7 +884,46 @@ for x in range(6):
   print(x)
 else:
   print("Completed")
+# Day 47 Python Functions
+def my_function():
+  print("Welcome folks on my twitter handle")
 
+my_function()
+
+def my_function(fname):
+  print( "DevOps & Twitter Star :")
+  print(fname)
+
+my_function("Kunal Kushwaha")
+my_function("Francesco ciulla")
+my_function("Pradumna Saraf")
+
+def my_function(*OS):
+  print("I usually go with " + OS[1])
+
+my_function("Windows", "Linux", "iOS")
+
+def my_function(Dev3, Dev2,Dev1):
+  print("Twitter Star's:")
+  print(Dev3)
+  print(Dev2)
+  print(Dev1)
+  
+
+my_function(Dev1 = "Aniket", Dev2 = "Francesco", Dev3 = "Kunal")
+
+def my_function(**district):
+  print("My District is " + district["dname"])
+
+my_function(sname = "Uttar Pradesh", dname = "Varanasi")
+
+def my_function(country = "Toronto"):
+  print("I'm from " + country)
+
+my_function("Italy")
+my_function("India")
+my_function()
+my_function("London")
 
 
 

@@ -925,6 +925,34 @@ my_function("India")
 my_function()
 my_function("London")
 
+# Day 48 Some Methods in Functions & Recursion
+# Some other examples
+def Name(Dev):
+  for x in Dev:
+    print(x)
+
+DevOps=["kunal", "francesco", "madhu"]
+
+Name(DevOps)
+
+def my_function(x):
+  return 18 * x
+
+print(my_function(4))
+print(my_function(6))
+print(my_function(8))
+
+def function():
+  pass
+  
+def factorial(n):
+    if n == 0:  #factorial of 0 is 1
+        return 1
+    else:
+        return n * factorial(n-1)  #call
+
+# Using factorial function
+print(factorial(5))  # Output: 120
 
 
         

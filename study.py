@@ -952,7 +952,7 @@ def factorial(n):
         return n * factorial(n-1)  #call
 
 # Using factorial function
-print(factorial(5))  # Output: 120
+print(factorial(5))
 
 
         

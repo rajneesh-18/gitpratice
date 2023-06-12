@@ -945,14 +945,14 @@ print(my_function(8))
 def function():
   pass
   
-def factorial(n):
+def fact(n):
     if n == 0:  #factorial of 0 is 1
         return 1
     else:
-        return n * factorial(n-1)  #call
+        return n * fact(n-1)  #call
 
 # Using factorial function
-print(factorial(5))
+print(fact(12))
 
 
         

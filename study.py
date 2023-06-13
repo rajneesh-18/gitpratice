@@ -954,7 +954,38 @@ def fact(n):
 # Using factorial function
 print(fact(12))
 
+# Day 49 Python Lambda
+x = lambda a, b: a * b
+print(x(18, 12))
 
+x = lambda a, b, c: a + b + c
+print(x(9, 5, 8))
+
+x = lambda a: a + 12
+print(x(18))
+
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(4)
+
+print(mydoubler(13))
+
+def myfunc(n):
+  return lambda a : a * n
+
+mytripler = myfunc(6)
+
+print(mytripler(17))
+
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(8)
+mytripler = myfunc(9)
+
+print(mydoubler(15)) 
+print(mytripler(19))
         
 
 

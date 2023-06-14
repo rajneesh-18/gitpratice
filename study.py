@@ -987,6 +987,43 @@ mytripler = myfunc(9)
 print(mydoubler(15)) 
 print(mytripler(19))
         
+# Day 50 Python Arrays
+Devs= ["Frontend", "Backend", "Full stack"]
+
+x = len(Devs)
+
+print(x)
+
+Devs= ["Frontend", "Backend", "Full stack"]
+
+x = Devs[0]
+
+print(x)
+
+Devs= ["Frontend", "Backend", "Full stack"]
+
+for x in Devs:
+  print(x)
+
+# Using pop for remove
+Devs= ["Frontend", "Backend", "Full stack"]
+
+Devs.pop(1)
+
+print(Devs)
+
+# Using remove for remove
+Devs= ["Frontend", "Backend", "Full stack"]
+
+Devs.remove("Full stack")
+
+print(Devs)
+
+Devs= ["Frontend", "Backend", "Full stack"]
+
+Devs.append("MERN")
+
+print(Devs)
 
 
 

@@ -1025,5 +1025,5 @@ Devs.append("MERN")
 
 print(Devs)
 
-# Day 51 Made a game rock paper scissors with the help of if-elif-else statement
+# Day 51 Made a game rock paper scissors with the help of if-elif-else statement and def,import.
 # Day 52 Made a temperature converter with the help of if-elif-else statement and def.

@@ -1025,5 +1025,31 @@ Devs.append("MERN")
 
 print(Devs)
 
-# Day 51 Made a game rock paper scissors with the help of if-elif-else statement and def,import.
-# Day 52 Made a temperature converter with the help of if-elif-else statement and def.
+# Day 51 Made a project game "rock paper scissors" with the help of if-elif-else statement and def,import.
+# Day 52 Made a project "temperature converter" with the help of if-elif-else statement and def.
+# Day 53 Made a project "Tech Quiz Test" with the help of class, __init__ function,for loop,if-elif-else statement.
+# Day 54 Made a project "Greeting of Day" with the help of __init__ function,import,def,if-elif-else statement.  
+# Day 55 Made a project "Daily Routine" with the help of __init__ function,class,list,def,if-elif-else statement.    
+# Day 56 Python Classes
+class Person:
+  def __init__(self, name, profession):
+    self.name = name
+    self.prof = profession
+
+p1 = Person("Francesco Ciulla", "DevAdv")
+
+print(p1.name)
+print(p1.prof)
+
+class Person:
+  def __init__(self, name, profession):
+    self.name = name
+    self.prof = profession
+
+  def __str__(self):
+    return f"{self.name}({self.prof})"
+
+p1 = Person("Kunal Kushwaha", "DevRel")
+
+print(p1)
+

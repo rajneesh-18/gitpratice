@@ -1053,3 +1053,39 @@ p1 = Person("Kunal Kushwaha", "DevRel")
 
 print(p1)
 
+# Day 57 Python Objects
+# Using self as a parameter
+class Person:
+  def __init__(self, name, prof):
+    self.name = name
+    self.prof = prof
+
+  def myfunc(self):
+    print("Hello I'm" + self.name)
+
+p1 = Person("Rajneesh Maurya", "Cool")
+p1.myfunc()
+
+# Using parameter which I Like that's why it's name is self 
+class Person:
+  def __init__(intro, name, prof):
+    intro.name = name
+    intro.prof = prof
+    
+  def myfunc(abc):
+   print ("Morning I'm " + abc.name)
+
+p1 = Person("Rajneesh Maurya","Cool")
+p1.myfunc()
+
+# Using parameter which I Like that's why it's name is self 
+class Person:
+  def __init__(intro, name, prof):
+    intro.name = name
+    intro.prof = prof
+    
+  def myfunc(abc):
+   print ("This is " + abc.name)
+
+p1 = Person("Rajneesh Maurya","Cool")
+p1.myfunc()

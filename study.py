@@ -1089,3 +1089,36 @@ class Person:
 
 p1 = Person("Rajneesh Maurya","Cool")
 p1.myfunc()
+
+# DAY 58 PYTHON INHERITANCE
+# With __init__ function
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    Person.__init__(self, fname, lname)
+
+x = Student("Rajneesh", "Maurya")
+x.printname()
+
+# With super() function
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+
+x = Student("Rajneesh", "Maurya")
+x.printname()

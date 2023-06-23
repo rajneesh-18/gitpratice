@@ -1122,3 +1122,23 @@ class Student(Person):
 
 x = Student("Rajneesh", "Maurya")
 x.printname()
+
+# Day 59 Python Iterator
+# Example of Iterable
+mystr = "Kunal"
+myit = iter(mystr)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+
+# Example of Iterator
+mytuple = ("Kunal", "Francesco", "Madza")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))

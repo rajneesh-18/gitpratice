@@ -1142,3 +1142,21 @@ myit = iter(mytuple)
 print(next(myit))
 print(next(myit))
 print(next(myit))
+
+# Day 60 Python Loop through the iterator
+# Create an iterator
+my_list = ["f", "r", "a", "n", "c", "e", "s", "c", "o"]
+my_iterator = iter(my_list)
+
+# Loop through the iterator
+for item in my_iterator:
+    print(item)
+
+# Create an iterator
+my_list = ["k", "u", "n", "a", "l"]
+my_iterator = iter(my_list)
+
+# Loop through the iterator
+for item in my_iterator:
+    print(item)
+

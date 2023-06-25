@@ -1183,3 +1183,22 @@ my_iterator = MyIterator(dev_list)
 for item in my_iterator:
     print(item)
 
+#Day 62 Python StopIteration
+class MyNum:
+  def __iter__(self):
+    self.a = 20
+    return self
+
+  def __next__(self):
+    if self.a <= 30:
+      x = self.a
+      self.a += 1
+      return x
+    else:
+      raise StopIteration
+
+myclass = MyNum()
+myiter = iter(myclass)
+
+for x in myiter:
+  print(x)

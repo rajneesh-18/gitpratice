@@ -1159,4 +1159,27 @@ my_iterator = iter(my_list)
 # Loop through the iterator
 for item in my_iterator:
     print(item)
+  
+# Day 61 Python Create an Iterator
+class MyIterator:
+    def __init__(self, data):
+        self.data = data
+        self.index = 0
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.index >= len(self.data):
+            raise StopIteration
+        else:
+            item = self.data[self.index]
+            self.index += 1
+            return item
+
+# Usage:
+dev_list = ["kunal","francesco","madza","madhu","aniket"]
+my_iterator = MyIterator(dev_list)
+for item in my_iterator:
+    print(item)
 

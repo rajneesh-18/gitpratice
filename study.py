@@ -1213,10 +1213,10 @@ devtuple = ("kunal", "francesco", "madza")
 
 print(len(devtuple))
 
-thisdict = {
+mydict = {
   "company": "Twitter",
   "role": "Content Creator",
   "age": 18
 }
 
-print(len(thisdict))
+print(len(mydict))

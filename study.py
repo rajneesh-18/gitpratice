@@ -1202,3 +1202,21 @@ myiter = iter(myclass)
 
 for x in myiter:
   print(x)
+
+# Day 63 Python Function Polymorphism
+
+x = "Hello Twitter!"
+
+print(len(x))
+
+devtuple = ("kunal", "francesco", "madza")
+
+print(len(devtuple))
+
+thisdict = {
+  "company": "Twitter",
+  "role": "Content Creator",
+  "age": 18
+}
+
+print(len(thisdict))

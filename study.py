@@ -1220,3 +1220,34 @@ mydict = {
 }
 
 print(len(mydict))
+
+# Day 64 Python Class Polymorphism
+class ProgrammingLanguage:
+    def __init__(self, name):
+        self.name = name
+
+    def display_info(self):
+        pass
+
+class Python(ProgrammingLanguage):
+    def display_info(self):
+        print(f"{self.name} is a popular programming language for web development")
+
+class JavaScript(ProgrammingLanguage):
+    def display_info(self):
+        print(f"{self.name} is a versatile programming language")
+
+class Java(ProgrammingLanguage):
+    def display_info(self):
+        print(f"{self.name} is a widely-used programming language")
+
+def get_language_info(language):
+    language.display_info()
+
+python = Python("Python")
+javascript = JavaScript("JavaScript")
+java = Java("Java")
+
+get_language_info(python)       # Python is a popular programming language for web development.
+get_language_info(javascript)   # JavaScript is a versatile programming
+get_language_info(java)         # Java is a widely-used programming language 

@@ -1251,3 +1251,31 @@ java = Java("Java")
 get_language_info(python)       # Python is a popular programming language for web development.
 get_language_info(javascript)   # JavaScript is a versatile programming
 get_language_info(java)         # Java is a widely-used programming language 
+
+# Day 65 Python Class Polymorphism
+class Shape:
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+# Create instances of different shapes
+rectangle = Rectangle(6, 13)
+circle = Circle(4)
+
+# Calculate and print the areas
+print("Area of the rectangle:", rectangle.area())  # Output will be: 78
+print("Area of the circle:", circle.area())  # Output will be:50.24

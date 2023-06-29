@@ -1279,3 +1279,10 @@ circle = Circle(4)
 # Calculate and print the areas
 print("Area of the rectangle:", rectangle.area())  # Output will be: 78
 print("Area of the circle:", circle.area())  # Output will be:50.24
+x = 10  # global variable
+
+# Day 66 Python Global Scope
+def func():
+    print(x)  # accessing global variable
+
+func()  # Output will be 10

@@ -1286,3 +1286,10 @@ def func():
     print(x)  # accessing global variable
 
 func()  # Output will be 10
+
+# Day 67 Python Global Scope
+def myfunc():
+  x = "Rajneesh Maurya"
+  print(x)
+
+myfunc()

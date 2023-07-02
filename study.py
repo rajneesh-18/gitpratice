@@ -1293,3 +1293,12 @@ def myfunc():
   print(x)
 
 myfunc()
+
+# Day 68 Python Module 
+# Here you see How to use Module
+import math
+
+# Calculate the square root of a number
+number = 16
+square_root = math.sqrt(number)
+print("Square root of", number, "is", square_root)

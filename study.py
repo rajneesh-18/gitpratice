@@ -1302,3 +1302,28 @@ import math
 number = 16
 square_root = math.sqrt(number)
 print("Square root of", number, "is", square_root)
+
+# DAY 69 PYTHON VARIABLE IN MODULE
+
+# DAY 70 Python Naming & Re-Naming in Module
+# Original module: my_module.py
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+def calculate_square(number):
+    return number ** 2
+# Renamed module: utilities.py
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+def calculate_square(number):
+    return number ** 2
+# main.py
+
+import utilities
+
+utilities.greet("John")
+result = utilities.calculate_square(5)
+print(result)

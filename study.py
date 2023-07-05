@@ -1327,3 +1327,22 @@ import utilities
 utilities.greet("John")
 result = utilities.calculate_square(5)
 print(result)
+
+# Day 71 Python DateTime
+
+import datetime
+
+# Get the current date
+current_date = datetime.date.today()
+print("Current date:", current_date)
+
+# Create a specific date
+specific_date = datetime.date(2023, 7, 5)
+print("Specific date:", specific_date)
+
+# Calculate the difference between two dates
+difference = specific_date - current_date
+print("Difference in days:", difference.days)
+
+
+
